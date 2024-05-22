@@ -1,0 +1,10 @@
+;*** MakeCAB Directive file;
+.OPTION EXPLICIT
+.Set CabinetNameTemplate="TestCab.cab"
+.Set DiskDirectory1="C:\Users\phaedrus\OneDrive - Microsoft\Shared Tools\CSDPSLibraries\CSD-ArchiveOperations\TestCorpus"
+.Set MaxDiskSize=0
+.Set Cabinet=on
+.Set Compress=on
+.Set CompressionType=MSZIP
+"C:\Users\phaedrus\OneDrive - Microsoft\Shared Tools\CSDPSLibraries\CSD-ArchiveOperations\TestCorpus\TestCAB\RootLevelFile.txt" "RootLevelFile.txt"
+"C:\Users\phaedrus\OneDrive - Microsoft\Shared Tools\CSDPSLibraries\CSD-ArchiveOperations\TestCorpus\TestCAB\Subdir\SubdirLevelFile.txt" "Subdir\SubdirLevelFile.txt"
